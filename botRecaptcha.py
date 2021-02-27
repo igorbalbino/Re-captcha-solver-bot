@@ -38,10 +38,10 @@ class googleCaptchaSolver:
             # create chrome driver
             # self.driver = webdriver.Firefox(executable_path=r'geckodriver\geckodriver.exe');
             self.driver = webdriver.Chrome(executable_path=r'geckodriver\chromedriver.exe');
-            delay();
+            # delay();
 
         except:
-            print("[-] ERRO !!! CHECK VERSION: selenium-python.readthedocs.io/installation.html");
+            print("[-] ERROR! ---> CHECK VERSION: selenium-python.readthedocs.io/installation.html");
 
     # CRIA FUNCAO solveAudioCaptcha
     def solveAudioCaptcha(self):
